@@ -12,10 +12,11 @@ class LikesPage extends StatelessWidget {
              ),
              body: Center(
                child: Column(
-
                  children: [
+                  SizedBox(height: 15,),
                    Text("Likes", style: TextStyle(fontSize: 24),),
-                   Text("Hier findest du deine gelikten Nachrichten."),
+                   SizedBox(height: 15,),
+                   Text("Hier findest du deine gelikten Nachrichten.",style: TextStyle(fontSize: 19),),
                  ],
                  
                ),
